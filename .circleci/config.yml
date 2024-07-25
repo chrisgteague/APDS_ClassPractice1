@@ -1,0 +1,14 @@
+# This config was automatically generated from your source code
+# Stacks detected: deps:node:Class Practice 1/backend
+version: 2.1
+orbs:
+  node: circleci/node@5
+jobs:
+ 
+workflows:
+  build-and-test:
+    jobs:
+    #  - test-node
+    # - deploy:
+    #     requires:
+    #       - test-node
